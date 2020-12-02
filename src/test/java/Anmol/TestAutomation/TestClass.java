@@ -9,12 +9,11 @@ import org.testng.annotations.Test;
 
 public class TestClass {
 
-	public static WebDriver driver;
-
+   public static WebDriver driver;
 	@BeforeMethod
 	public void lanuchDriver() {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
+	driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 	}
 
@@ -32,7 +31,7 @@ public class TestClass {
 		driver.findElement(By.id("username")).sendKeys("admin@anmol.com");
 		driver.findElement(By.id("password")).sendKeys("98765");
 		driver.findElement(By.tagName("button")).click();
-		
+
 		String url = driver.getCurrentUrl();
 		if (url.equals("http://aisqa.dhanushinfotech.com/")) {
 			System.out.println("Login Successful: Passed");
@@ -46,3 +45,11 @@ public class TestClass {
 	 * @AfterMethod public void quit() { driver.close(); }
 	 */
 }
+
+/*
+	public static void main(String [] args) {
+	TestClass t= new TestClass();
+			t.lanuchDriver();
+			t.Test1();
+			t.Test2();
+} */
