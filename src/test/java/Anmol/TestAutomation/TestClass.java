@@ -14,15 +14,15 @@ public class TestClass {
 	@BeforeMethod
 	public void lanuchDriver() {
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome-stable");
-<<<<<<< HEAD
+// <<<<<<< HEAD
 		//System.setProperty("webdriver.gecko.driver", "D:\\GeckoDriver\\geckodriver-v0.28.0-win64\\geckodriver.exe");
 		//WebDriver driver = new FirefoxDriver();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-=======
+// =======
 	driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
->>>>>>> df7b613a31479daef8eaab20c93d31c907bd4be1
+// >>>>>>> df7b613a31479daef8eaab20c93d31c907bd4be1
 	}
 
 	@Test
