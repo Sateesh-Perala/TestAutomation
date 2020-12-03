@@ -3,6 +3,7 @@ package Anmol.TestAutomation;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 // import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,9 +13,16 @@ public class TestClass {
    public static WebDriver driver;
 	@BeforeMethod
 	public void lanuchDriver() {
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome-stable");
+<<<<<<< HEAD
+		//System.setProperty("webdriver.gecko.driver", "D:\\GeckoDriver\\geckodriver-v0.28.0-win64\\geckodriver.exe");
+		//WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+=======
 	driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
+>>>>>>> df7b613a31479daef8eaab20c93d31c907bd4be1
 	}
 
 	@Test
