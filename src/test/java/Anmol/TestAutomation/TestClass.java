@@ -14,7 +14,7 @@ public class TestClass {
 
 	@BeforeMethod
 	public void lanuchDriver() {
-		System.setProperty("webdriver.chrome.driver", "//usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		// System.setProperty("webdriver.gecko.driver",
 		// "D:\\GeckoDriver\\geckodriver-v0.28.0-win64\\geckodriver.exe");
 		// WebDriver driver = new FirefoxDriver();
