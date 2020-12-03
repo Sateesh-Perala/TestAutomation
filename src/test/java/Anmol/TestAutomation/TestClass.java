@@ -14,7 +14,7 @@ public class TestClass {
 
 	@BeforeMethod
 	public void lanuchDriver() {
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver", "//usr/bin/google-chrome");
 		// System.setProperty("webdriver.gecko.driver",
 		// "D:\\GeckoDriver\\geckodriver-v0.28.0-win64\\geckodriver.exe");
 		// WebDriver driver = new FirefoxDriver();
@@ -51,9 +51,10 @@ public class TestClass {
 	/*
 	 * @AfterMethod public void quit() { driver.close(); }
 	 */
+ public static void main(String [] args) 
+ { TestClass t= new TestClass();
+ t.lanuchDriver(); 
+ t.Test1(); 
+ t.Test2();
+ }
 }
-
-/*
- * public static void main(String [] args) { TestClass t= new TestClass();
- * t.lanuchDriver(); t.Test1(); t.Test2(); }
- */
