@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-03T20:48:39 IST" name="Default suite" finished-at="2020-12-03T20:49:04 IST" duration-ms="24466">
+  <suite name="Default suite" duration-ms="43743" started-at="2020-12-15T16:32:02 IST" finished-at="2020-12-15T16:32:46 IST">
     <groups>
     </groups>
-    <test started-at="2020-12-03T20:48:39 IST" name="Default test" finished-at="2020-12-03T20:49:04 IST" duration-ms="24466">
+    <test name="Default test" duration-ms="43743" started-at="2020-12-15T16:32:02 IST" finished-at="2020-12-15T16:32:46 IST">
       <class name="Anmol.TestAutomation.TestClass">
-        <test-method is-config="true" signature="lanuchDriver()[pri:0, instance:Anmol.TestAutomation.TestClass@229d10bd]" started-at="2020-12-03T20:48:39 IST" name="lanuchDriver" finished-at="2020-12-03T20:48:47 IST" duration-ms="7928" status="PASS">
+        <test-method status="PASS" signature="lanuchDriver()[pri:0, instance:Anmol.TestAutomation.TestClass@6895a785]" name="lanuchDriver" is-config="true" duration-ms="7501" started-at="2020-12-15T16:32:03 IST" finished-at="2020-12-15T16:32:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuchDriver -->
-        <test-method signature="Test1()[pri:0, instance:Anmol.TestAutomation.TestClass@229d10bd]" started-at="2020-12-03T20:48:47 IST" name="Test1" finished-at="2020-12-03T20:48:52 IST" duration-ms="4952" status="PASS">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Anmol.TestAutomation.TestClass@6895a785]" name="Test1" duration-ms="36170" started-at="2020-12-15T16:32:10 IST" finished-at="2020-12-15T16:32:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="lanuchDriver()[pri:0, instance:Anmol.TestAutomation.TestClass@229d10bd]" started-at="2020-12-03T20:48:52 IST" name="lanuchDriver" finished-at="2020-12-03T20:48:58 IST" duration-ms="6025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lanuchDriver -->
-        <test-method signature="Test2()[pri:0, instance:Anmol.TestAutomation.TestClass@229d10bd]" started-at="2020-12-03T20:48:58 IST" name="Test2" finished-at="2020-12-03T20:49:04 IST" duration-ms="5459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
       </class> <!-- Anmol.TestAutomation.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
